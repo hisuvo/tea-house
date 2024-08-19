@@ -27,12 +27,13 @@
             }
           }
         }
-      </script>
+    </script>
 
 </head>
 <body>
     <header></header>
-    <main class="max-w-screen-xl m-auto p-4 my-4">
+
+    <main class="container mx-auto p-4 my-4">
         <!-- hero section -->
         <section class="mb-20 md:flex justify-between items-center">
             <!-- Text content -->
@@ -44,7 +45,6 @@
                 <!-- Hero Button -->
                  <button class="text-xl bg-gradient-to-r from-orange-400 to-red-500 font-bold py-4 px-5 rounded-lg text-white">Explore More <i class="fa-solid fa-arrow-up-long rotate-12"></i></button>
              </div>
-
             <!-- Image content -->
              <div class="relative">
               <!-- image -->
@@ -233,6 +233,82 @@
            </div>
          </section>
     </main>
-    <footer></footer>
+
+
+    <footer class="bg-orange-50 px-4 py-32">
+      <section class="container mx-auto">
+        <!-- Footer Logo & Button part -->
+         <div class="md:flex items-center justify-between">
+          <!-- logo -->
+          <img class="mx-auto mb-5 md:mb-0 md:mx-0" src="./images/cup.png" alt="footer logo">
+          <!-- button part  -->
+           <div class="flex items-center justify-between gap-2 md:gap-4">
+            <!-- text -->
+            <h3 class="text-xl font-medium">Ready to get strated?</h3>
+            <!-- button -->
+            <button class="text-xl bg-gradient-to-r from-orange-400 to-red-500 font-bold py-4 px-6 rounded-lg text-white">Get Starts</button>
+           </div>
+         </div>
+        <!-- links part -->
+         <div class="mt-24 grid grid-cols-4 gap-4">
+            <!-- first link -->
+            <div>
+              <!-- link title  -->
+              <h2 class="text-xl font-semibold mb-5">Quick Links</h2>
+              <!-- links -->
+              <ul class="text-base text-gray-700 space-y-4">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Insurance</a></li>
+                <li><a href="#">Privacy Police</a></li>
+              </ul>
+            </div>
+
+            <!-- second link -->
+            <div>
+              <!-- link title  -->
+              <h2 class="text-xl font-semibold mb-5">Our Service</h2>
+              <!-- links -->
+              <ul class="text-base text-gray-700 space-y-4">
+                <li><a href="#">Life Insurance</a></li>
+                <li><a href="#">Car Insurance</a></li>
+                <li><a href="#">Health Insurance</a></li>
+                <li><a href="#">House Insurance</a></li>
+              </ul>
+            </div>
+
+            <!-- Third link -->
+            <div>
+              <!-- link title  -->
+              <h2 class="text-xl font-semibold mb-5">Helps</h2>
+              <!-- links -->
+              <ul class="text-base text-gray-700 space-y-4">
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <!-- Fourth link -->
+            <div class="flex flex-col justify-between">
+              <h3 class="text-2xl font-semibold">Subscribe to our newsletter</h3>
+
+              <!-- input -->
+               <div class="flex">
+                <input class="w-full border-b bg-transparent outline-none border-black py-2" type="email" placeholder="Email Adress">
+               </div>
+
+               <!-- icons -->
+                <div>
+                  <ul class="flex gap-2 md:gap-4">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  </ul>
+                </div>
+            </div>
+
+         </div>
+      </section>
+    </footer>
 </body>
 </html>
